@@ -1,0 +1,33 @@
+{
+  "name": "EndlessScrolling",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "Faker": "^0.7.2",
+    "react": "15.3.2",
+    "react-native": "0.35.0"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-react": "^6.2.0",
+    "eslint-plugin-standard": "^2.0.0",
+    "babel-jest": "16.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "16.0.2",
+    "jest-react-native": "16.0.0",
+    "react-test-renderer": "15.3.2"
+  }
+}

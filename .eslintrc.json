@@ -1,0 +1,22 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "babel",
+        "react"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "no-unused-vars": [2, {
+        "vars": "all",
+        "args": "after-used",
+        "varsIgnorePattern": "hJSX"
+      }],
+      "react/jsx-uses-react": "error",
+      "react/jsx-uses-vars": "error",
+      "space-before-function-paren": [0, "never"]
+    }
+}
